@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/example', function () {
     return view('eg');
 });
+
+Route::get('/example2', function () {
+    return view('eg');
+});
