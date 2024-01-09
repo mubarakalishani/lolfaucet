@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/eg', function () {
+Route::get('/example', function () {
     return view('eg');
 });
